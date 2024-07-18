@@ -41,11 +41,11 @@ function CategorySideBar() {
                     md:mr-10
                     items-center
                     cursor-pointer
-                    hover:bg-green-50
+                    hover:bg-pink-100
                     hover:text-primary
                     hover:border-primary
                     hover:shadow-md
-                    ${selectedCategory==category.name&&' border-primary text-primary shadow-md bg-green-50'}`}>
+                    ${selectedCategory==category.name&&' border-primary text-primary shadow-md bg-pink-100'}`}>
                         <Image src={category.icon.url}
                         alt='icon'
                         width={30}

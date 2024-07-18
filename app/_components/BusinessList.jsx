@@ -31,7 +31,7 @@ function BusinessList({businessList, title}) {
                     p-3
                     gap-1'>
                         <h2 className='p-1
-                        bg-green-100
+                        bg-pink-100
                         text-primary
                         rounded-full
                         px-2

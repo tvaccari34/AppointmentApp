@@ -29,7 +29,7 @@ export default function Home() {
   }
 
   return (
-   <div>
+   <div className="no-scrollbar overflow-y-auto">
     <Hero/>
 
     <CategoryList categoryList={categoryList}/>

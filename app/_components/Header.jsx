@@ -26,7 +26,7 @@ function Header() {
   return (
     <div className='p-5 ml-4 mr-4 shadow-sm flex justify-between'>
         <div className='flex items-center gap-8'>
-            <Image src='/logo.svg' alt='logo'
+            <Image src='/Essence-Nail-Logo.png' alt='logo'
             width={180} height={100} />
             <div className='md:flex items-center
             gap-6 hidden'>

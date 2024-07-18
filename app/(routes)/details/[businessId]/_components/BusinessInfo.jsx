@@ -28,7 +28,7 @@ function BusinessInfo(business) {
                     : <div className='fallback-image'>No Image Available</div>}
                     <div className='flex flex-col md:flex-row justify-between items-center w-full'>
                         <div className='flex flex-col mt-4 md:mt-0 items-baseline gap-3'>
-                            <h2 className='text-primary p-1 px-3 text-lg bg-green-50 rounded-full'>{businessDetail?.category?.name}</h2>
+                            <h2 className='text-primary p-1 px-3 text-lg bg-pink-100 rounded-full'>{businessDetail?.category?.name}</h2>
                             <h2 className='text-[40px] font-bold'>{businessDetail.name}</h2>
                             <h2 className='flex gap-2 text-lg text-gray-500'><MapPin/>{businessDetail.address}</h2>
                             <h2 className='flex gap-2 text-lg text-gray-500'>

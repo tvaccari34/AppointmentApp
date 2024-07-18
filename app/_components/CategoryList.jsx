@@ -6,10 +6,8 @@ import React from 'react'
 function CategoryList({categoryList}) {
   return (
     <div className='mx-4 md:mx-22 lg:mx-52
-    grid grid-cols-3
-    md:grid-cols-4
-    lg:grid-cols-6
-    gap-4'>
+    flex
+    justify-around m-12'>
         {categoryList.length > 0 ? categoryList.map((category, index)=>(
             <Link href={'/search/' + category.name} key={index} className={`flex flex-col 
                             items-center 
